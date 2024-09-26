@@ -1,7 +1,7 @@
-app_name = "pwa_build"
-app_title = "Pwa Build"
+app_name = "manufacturing"
+app_title = "Manufacturing"
 app_publisher = "Aerele Technologies"
-app_description = "Builded pwa app for pwa builder"
+app_description = "Builded frontend app for frontend builder"
 app_email = "support@aerele.in"
 app_license = "mit"
 # required_apps = []
@@ -10,15 +10,15 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/pwa_build/css/pwa_build.css"
-# app_include_js = "/assets/pwa_build/js/pwa_build.js"
+# app_include_css = "/assets/manufacturing/css/manufacturing.css"
+# app_include_js = "/assets/manufacturing/js/manufacturing.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/pwa_build/css/pwa_build.css"
-# web_include_js = "/assets/pwa_build/js/pwa_build.js"
+# web_include_css = "/assets/manufacturing/css/manufacturing.css"
+# web_include_js = "/assets/manufacturing/js/manufacturing.js"
 
 # include custom scss in every website theme (without file extension ".scss")
-# website_theme_scss = "pwa_build/public/scss/website"
+# website_theme_scss = "manufacturing/public/scss/website"
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
@@ -36,7 +36,7 @@ app_license = "mit"
 # Svg Icons
 # ------------------
 # include app icons in desk
-# app_include_icons = "pwa_build/public/icons.svg"
+# app_include_icons = "manufacturing/public/icons.svg"
 
 # Home Pages
 # ----------
@@ -60,44 +60,44 @@ app_license = "mit"
 
 # add methods and filters to jinja environment
 # jinja = {
-# 	"methods": "pwa_build.utils.jinja_methods",
-# 	"filters": "pwa_build.utils.jinja_filters"
+# 	"methods": "manufacturing.utils.jinja_methods",
+# 	"filters": "manufacturing.utils.jinja_filters"
 # }
-after_migrate = "pwa_build.after_migrate.AfterMigrate"
+after_migrate = "manufacturing.after_migrate.AfterMigrate"
 
 # Installation
 # ------------
 
-# before_install = "pwa_build.install.before_install"
-# after_install = "pwa_build.install.after_install"
+# before_install = "manufacturing.install.before_install"
+# after_install = "manufacturing.install.after_install"
 
 # Uninstallation
 # ------------
 
-# before_uninstall = "pwa_build.uninstall.before_uninstall"
-# after_uninstall = "pwa_build.uninstall.after_uninstall"
+# before_uninstall = "manufacturing.uninstall.before_uninstall"
+# after_uninstall = "manufacturing.uninstall.after_uninstall"
 
 # Integration Setup
 # ------------------
 # To set up dependencies/integrations with other apps
 # Name of the app being installed is passed as an argument
 
-# before_app_install = "pwa_build.utils.before_app_install"
-# after_app_install = "pwa_build.utils.after_app_install"
+# before_app_install = "manufacturing.utils.before_app_install"
+# after_app_install = "manufacturing.utils.after_app_install"
 
 # Integration Cleanup
 # -------------------
 # To clean up dependencies/integrations with other apps
 # Name of the app being uninstalled is passed as an argument
 
-# before_app_uninstall = "pwa_build.utils.before_app_uninstall"
-# after_app_uninstall = "pwa_build.utils.after_app_uninstall"
+# before_app_uninstall = "manufacturing.utils.before_app_uninstall"
+# after_app_uninstall = "manufacturing.utils.after_app_uninstall"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "pwa_build.notifications.get_notification_config"
+# notification_config = "manufacturing.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -136,39 +136,39 @@ after_migrate = "pwa_build.after_migrate.AfterMigrate"
 
 # scheduler_events = {
 # 	"all": [
-# 		"pwa_build.tasks.all"
+# 		"manufacturing.tasks.all"
 # 	],
 # 	"daily": [
-# 		"pwa_build.tasks.daily"
+# 		"manufacturing.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"pwa_build.tasks.hourly"
+# 		"manufacturing.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"pwa_build.tasks.weekly"
+# 		"manufacturing.tasks.weekly"
 # 	],
 # 	"monthly": [
-# 		"pwa_build.tasks.monthly"
+# 		"manufacturing.tasks.monthly"
 # 	],
 # }
 
 # Testing
 # -------
 
-# before_tests = "pwa_build.install.before_tests"
+# before_tests = "manufacturing.install.before_tests"
 
 # Overriding Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "pwa_build.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": "manufacturing.event.get_events"
 # }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-# 	"Task": "pwa_build.task.get_dashboard_data"
+# 	"Task": "manufacturing.task.get_dashboard_data"
 # }
 
 # exempt linked doctypes from being automatically cancelled
@@ -182,13 +182,13 @@ after_migrate = "pwa_build.after_migrate.AfterMigrate"
 
 # Request Events
 # ----------------
-# before_request = ["pwa_build.utils.before_request"]
-# after_request = ["pwa_build.utils.after_request"]
+# before_request = ["manufacturing.utils.before_request"]
+# after_request = ["manufacturing.utils.after_request"]
 
 # Job Events
 # ----------
-# before_job = ["pwa_build.utils.before_job"]
-# after_job = ["pwa_build.utils.after_job"]
+# before_job = ["manufacturing.utils.before_job"]
+# after_job = ["manufacturing.utils.after_job"]
 
 # User Data Protection
 # --------------------
@@ -218,7 +218,7 @@ after_migrate = "pwa_build.after_migrate.AfterMigrate"
 # --------------------------------
 
 # auth_hooks = [
-# 	"pwa_build.auth.validate"
+# 	"manufacturing.auth.validate"
 # ]
 
 # Automatically update python controller files with type annotations for this app.
@@ -228,4 +228,4 @@ after_migrate = "pwa_build.after_migrate.AfterMigrate"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
-website_route_rules = [{'from_route': '/pwa/<path:app_path>', 'to_route': 'pwa'},]
+website_route_rules = [{'from_route': '/frontend/<path:app_path>', 'to_route': 'frontend'},]
